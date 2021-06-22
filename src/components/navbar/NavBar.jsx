@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import logo from "./logo.svg";
+import logo from "../../../public/img/logo.svg";
 import {
   Nav,
   Navbar,
@@ -11,7 +11,7 @@ import {
   InputGroup,
 } from "react-bootstrap";
 import "./NavBar.css";
-import CartWidget from "./CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
 
 export function NavBar() {
   return (
