@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import logo from "../../../public/img/logo.svg";
+import logo from "./logo.svg";
 import {
   Nav,
   Navbar,
@@ -24,7 +24,7 @@ export function NavBar() {
       collapseOnSelect
     >
       <Navbar.Brand href="index.html">
-        <img className="App-logo" src={logo}  alt="Logo"/> ReactLibre
+        <img className="App-logo" src={logo} alt="Logo" /> ReactLibre
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
