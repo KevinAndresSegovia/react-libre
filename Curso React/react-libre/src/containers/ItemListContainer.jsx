@@ -1,7 +1,7 @@
 import React from "react";
 import { Fragment } from "react";
 import { CardComponet } from "../components/CardComponent";
-//import { ItemList } from "../components/ItemList";
+import { ItemList } from "../components/ItemList";
 
 
 export default function ItemListContainer() {
@@ -31,11 +31,11 @@ mostrarProductos() */
 
 return (
     <Fragment>
-                  {product.map(element =>{
+{/*                   {product.map(element =>{
             return (
                   <CardComponet name={element.name} img={element.img} descripcion={element.descripcion} price={element.price} stock={element.stock}/>
-                )})}
-                {/* <ItemList /> */}
+                )})} */}
+                {<ItemList />}
     </Fragment>
 
   );
