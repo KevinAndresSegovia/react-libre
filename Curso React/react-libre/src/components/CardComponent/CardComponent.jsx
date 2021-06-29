@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
-import { Counter } from "../components/counter/Counter";
-export function CardComponet({ name, img, descripcion, price, stock }) {
+import { Counter } from "../counter/Counter";
+export default function CardComponent({ name, img, descripcion, price, stock }) {
   return (
     <Col sm={4}>
     <Card >

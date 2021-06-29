@@ -1,8 +1,14 @@
-import React from 'react';
-import { CardComponet } from "../components/CardComponent";
+import React from "react";
+import CardComponent from "../CardComponent/CardComponent";
 
-export default function Item() {
-    return (
-            <CardComponet name={element.name} img={element.img} descripcion={element.descripcion} price={element.price} stock={element.stock}/>
-    )
+export default function Item(props) {
+  return (
+    <CardComponent
+      name={props.name}
+      img={props.img}
+      descripcion={props.descripcion}
+      price={props.price}
+      stock={props.stock}
+    />
+  );
 }
